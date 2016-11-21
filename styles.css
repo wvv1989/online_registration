@@ -13,6 +13,11 @@ header {
 	padding: 20px 0 20px 0;
 }
 
+form {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 .intro-text {
 	text-align: center;
 }
@@ -59,6 +64,26 @@ textarea {
 	border-radius: 2px;
 	font-size: 18px;
 	padding: 20px;
+}
+
+input:focus {
+	outline: none !important;
+	border: 2px solid #223148;
+	box-shadow: none;
+}
+
+textarea:focus {
+	outline: none !important;
+	border: 2px solid #223148;
+	box-shadow: none;
+}
+
+input::-webkit-input-placeholder {
+	text-align: right;
+}
+
+#zipcode {
+	width: 50%;
 }
 
 .topics {
@@ -113,5 +138,11 @@ button {
 	border-radius: 2px;
 	margin-left: 20px;
 	padding: 20px;
+}
+
+.footer-text {
+	text-align: center;
+	color: #acacac;
+	padding: 20px 0 100px 0;
 }
 
