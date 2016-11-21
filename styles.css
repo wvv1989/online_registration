@@ -165,6 +165,65 @@ button {
 }
 
 @media screen and (min-width: 760px) {
+	* {
+		box-sizing: border-box;
+	}
 	
+	.container {
+		width: 70%;
+		
+	}
+	
+	header {
+		background-color: #25323c; 
+		text-align: center;
+		color: white;
+		padding: 5px 0 5px 0;
+}
+	
+	.border-thick
+	{
+		width: 70%;
+		margin: 0 auto;
+		border-bottom: 3px solid #25323c;
+}
+	.border-thin {
+		width: 70%;
+		margin: 0 auto;
+		border-bottom: 1px solid #25323c;
+}
+
+	label {
+		display: inline-block;
+		width: 20%;
+}
+
+	input[type="email"],
+	input[type="tel"],
+	input[type="text"],
+	textarea
+	 {
+		display: inline;
+		width: 79%;
+	}
+	
+	.state_style  {
+		margin-top: 10px;
+		display: inline;
+		width: 79%;
+	}
+	
+	.newsletter-text {
+		display: inline;
+	}
+	
+	.topics {
+		width: 60%;
+		display: block;
+	}
+	
+	.textarea-style {
+		width: 100%;
+	}
 }
 
