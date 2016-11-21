@@ -45,19 +45,12 @@ header {
 	padding-top: 10px;
 }
 
-h2 {
-	font-size: 24px;
-	color: #25323c;
-	margin-left: 20px;
-}
-
 /* FORM STYLES */
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-textarea,
-select {
+textarea {
 	width: 80%;
 	background-color: #e9e9e9;
 	border: none;
@@ -68,9 +61,41 @@ select {
 	padding: 20px;
 }
 
+.topics {
+	margin-top: 20px;
+}
+
 label {
 	display: block;
 	margin-left: 20px;
 	font-size: 18px;
 	color: #4a5e6d;
 }
+
+label.light {
+	display: inline;
+}
+
+legend {
+	margin: 20px 0 20px 20px;
+	font-size: 26px;
+	color: #25323c;
+}
+
+select {
+	margin-left: 20px;
+	width: 90%;
+}
+
+input[type="checkbox"] {
+	margin: 20px 0 0 20px;
+}
+
+input[type="radio"] {
+	margin: 20px 0 0 20px;
+}
+
+.format {
+	margin-top: 20px;
+}
+

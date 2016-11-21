@@ -24,7 +24,7 @@
 
 <form>
 
-<h2>Contact Information</h2>
+<legend>Contact Information</legend>
 
 <label for="name">Full Name</label>
 <input type="text" id="name" name="user_name">
@@ -42,9 +42,30 @@
 <input type="text" id="city" name="user_city">
 
 <label for="state">State</label>
+<select id="state" name="user_state">
+	<option hidden>Choose State</option>
+	<option value="zuid_holland">Zuid-Holland</option>
+    <option value="noord_holland">Noord-Holland</option>
+</select>
 
 <label for="zipcode">Zip Code</label>
 <input type="text" id="zipcode" name="user_zipcode">
+
+<div class="border-thin"></div>
+
+<legend>Newsletter</legend>
+
+<label>Select the newsletters you would like to receive</label>
+<input type="checkbox" id="html" value="html_newsletter" name="html_newsletter"><label class="light" for="html">HTML News</label><br>
+<input type="checkbox" id="css" value="css_newsletter" name="css_newsletter"><label class="light" for="css">CSS News</label><br>
+<input type="checkbox" id="javascript" value="javascript_newsletter" name="javascript_newsletter"><label class="light" for="javascript">Javascript News</label><br>
+
+<label class="format">Newsletter format</label>
+<input type="radio" id="html_format" value="htmlformat" name="htmlformat"><label for="html_format" class="light">HTML</label><br>
+<input type="radio" id="plain" value="plain_text" name="plain_text"><label for="plain" class="light">Plain text</label><br>
+
+<label for="textarea" class="topics" >Other topics you'd like to hear about</label>
+<textarea type="text" id="textarea" name="user_textarea"></textarea>
 
 </form>
 </body>
