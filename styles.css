@@ -65,6 +65,11 @@ textarea {
 	margin-top: 20px;
 }
 
+.state_style {
+	height: 60px;
+	margin: 0 0 10px 20px;
+}
+
 label {
 	display: block;
 	margin-left: 20px;
@@ -97,5 +102,16 @@ input[type="radio"] {
 
 .format {
 	margin-top: 20px;
+}
+
+button {
+	width: 90%;
+	background-color: #94ea7d;
+	font-size: 22px;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	margin-left: 20px;
+	padding: 20px;
 }
 
